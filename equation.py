@@ -8,7 +8,7 @@ def initialphi(x):
 #space setup
 nx=20
 nt=20
-diff=0.1
+diff=0.00001
 dx=1./nx
 dt=1./nt
 coeff=(diff*dt)/(dx**2)
